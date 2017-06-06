@@ -16,3 +16,4 @@ zero :: STy ty -> ty
 zero SIntTy       = 0
 zero SBoolTy      = False
 zero (SMaybeTy _) = Nothing
+--zero (SListTy _)  = []

@@ -20,4 +20,5 @@ data Elem list elt where
 
 -- | Get retrieves an item out of a heterogeneous list
 get :: Elem tys ty -> HList tys -> ty
-get = undefined
+get EZ (x :> _) = x
+get (ES e) (_ :> xs) = get e xs
