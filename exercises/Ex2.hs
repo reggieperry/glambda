@@ -1,4 +1,4 @@
-{-# LANGUAGE GADTs, DataKinds, PolyKinds, TypeOperators #-}
+{-# LANGUAGE GADTs, DataKinds, PolyKinds, TypeOperators, PartialTypeSignatures #-}
 {-# OPTIONS_GHC -fwarn-incomplete-patterns #-}
 
 module Ex2 where
